@@ -1,0 +1,82 @@
+.font-grey {
+  color: #414344 !important;
+}
+
+.card-height {
+  height: 120px !important;
+}
+
+.grey-second-variant {
+  background: #6e6f6f !important;
+}
+
+.profile-width {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hover-yellow-effect:hover {
+  background: #ffc107 !important;
+  transition: 500ms;
+}
+
+.hover-white-effect:hover {
+  background: #f8f4ec !important;
+  font-weight: 700;
+}
+
+.hover-black-effect:hover {
+  background: #454646 !important;
+  font-weight: 700;
+}
+
+.hover-black-effect:hover {
+  background: #454646 !important;
+  font-weight: 700;
+}
+
+.background-black-color-secondary {
+  background: #5a5a5a !important;
+}
+
+.effect-black:hover {
+  background: #313232;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.font-black-secondary {
+  color: #373838;
+}
+
+.form-width {
+  width: 600px;
+  margin: auto;
+}
+
+.width-of-footer {
+  width: 500px;
+  margin: auto;
+}
+
+/* Responsive for Admin Login Card */
+@media (min-width: 990px) {
+  #driver-login-card {
+    max-width: 700px !important;
+  }
+}
+
+@media (min-width: 560px) {
+  #driver-profile-card {
+    width: 25rem !important;
+  }
+}
+
+/* Reservation Form Responsiveness */
+@media (max-width: 768px) {
+  .form-width {
+    width: 100%;
+  }
+}

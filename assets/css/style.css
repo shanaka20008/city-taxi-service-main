@@ -1,0 +1,124 @@
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Sen", sans-serif !important;
+}
+
+.hover-effect:hover {
+  background-color: #0d6efd !important;
+  color: white !important;
+  border-radius: 0.25rem;
+  transition: 500ms;
+}
+
+.height {
+  height: 600px !important;
+}
+
+.margin-top {
+  margin-top: 150px !important;
+}
+
+.background-gradient-image {
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../img/taxi-background.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Manual Color Variant */
+.white-variant {
+  background: #f5f5f5 !important;
+}
+
+.text-color {
+  color: #ebe3d5 !important;
+}
+
+.background-img-taxi-top-view {
+  background-image: url(../img/taxi-top-view.png) !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.bg-external-white {
+  background-color: #f8f4ec !important;
+}
+
+.font-white {
+  color: #f8f4ec !important;
+}
+
+.font-white-secondary {
+  color: #dfdbd4 !important;
+}
+
+.background-black-color {
+  background-color: #2c2d2d !important;
+}
+
+.font-black {
+  color: #313232 !important;
+}
+
+.outline-remove {
+  outline: none !important;
+}
+
+.background-grey {
+  background-color: #d8d9da !important;
+}
+
+.locate-button:hover {
+  background-color: #454646 !important;
+  transition: 500ms !important;
+}
+
+/* Error Message Color Variant */
+.error-msg-margin {
+  color: #cc0000 !important;
+  margin-top: 5px !important;
+}
+
+.error-msg-secondary-red-variant {
+  margin-top: 5px !important;
+  color: #ff6666 !important;
+}
+
+.gradient-taxi-backgorund {
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../img/taxi-login-page-bg.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.login-header-font-size {
+  font-size: 66px !important;
+}
+
+.img-height-width {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+
+.margin-top-of-admin-card {
+  margin-top: 150px !important;
+}
+
+/* Manual Text Sizes */
+.font-size-small {
+  font-size: 12px !important;
+}
+
+/* Responsive for Admin Login Card */
+@media (min-width: 990px) {
+  #admin-login-card {
+    max-width: 700px !important;
+  }
+}
