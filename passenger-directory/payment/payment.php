@@ -35,7 +35,7 @@ $tripDistanceInKM = 0;
 $totalAmoutOfTrip = 0;
 
 $API_URL = "https://maps.googleapis.com/maps/api/distancematrix/json?departure_time=now";
-$apiKey = "AIzaSyBsJI5yvcBVkMmi4-jP0CqjZzHm4tgzrnE";  // Make sure to replace this with your actual API key
+$apiKey = "";  // Make sure to replace this with your actual API key
 
 if (!empty($pickupLocation) && !empty($dropLocation)) {
     $requestURL = $API_URL . "&destinations=" . urlencode($dropLocation) . "&origins=" . urlencode($pickupLocation) . "&key=" . $apiKey;

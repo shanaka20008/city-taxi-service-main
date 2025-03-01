@@ -116,7 +116,7 @@ function sendSMS($phoneNumber, $passengerName, $driverName, $taxiNumber, $driver
     require __DIR__ . "../../vendor/autoload.php";
 
     $base_url = "qdyev2.api.infobip.com";
-    $api_key = "d24d973eff6b48b723cf1f960437e462-3cdbaff6-a40a-4a51-97aa-83f7fe49f10a";
+    $api_key = "// * API Key";
 
     $msg = "Driver Name: " . $driverName . "\nDriver Phone Number: " . $driverPhoneNumber . "\nTaxi Number: " . $taxiNumber . ".";
 

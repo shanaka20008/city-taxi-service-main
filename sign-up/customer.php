@@ -443,8 +443,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       // PHPMailer Configuration
       $mail = new PHPMailer(true);
 
-      $userMail = "janithbandara001@gmail.com";           // Admin mail id
-      $passKey = "dhpcycmnlkcqwysm";
+      $userMail = "add@mail.here";           // Admin mail id
+      $passKey = "";
 
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
